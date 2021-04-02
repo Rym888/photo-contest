@@ -1,0 +1,87 @@
+/* Reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+} 
+#nav{
+    display: inline-block;
+    margin-bottom: 0;
+}  
+#nav li{
+    display: inline-block;
+    position: relative;
+}
+#nav > li:hover > a{
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav > li > a{
+    color: #fff;
+    text-transform: uppercase;
+}
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+#silder{
+    width: 100%;
+    height: 100%;
+}
+#slider .slider-picture{
+    text-align: center;
+}
+.heading{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+}
+content{
+    height: 2000px;
+    background-color: #000;
+}
+.top-picture{
+    width: 100%;
+    height: 225px;;
+}
+.reg-decirption{
+    float: left;
+}
+.form-submit-btn{
+    font-size: 15px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    float: left; 
+    padding: 10px 16px;
+    outline: none;
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+#footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    text-align: center;
+}
+#footer .social-icon{
+    color:#ccc;
+    font-size: 30px;
+    padding: 60px;    
+}
